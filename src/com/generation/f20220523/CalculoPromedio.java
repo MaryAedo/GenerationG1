@@ -18,7 +18,13 @@ public class CalculoPromedio {
 		
 		//promedio;
 		float promedio = sumaNotas / notas.lenght;
-		
+		/* TODO validar el orden >= */
+		//101
+		if(promedio >= 50 && promedio <= 100) {
+			
+		}else {
+			
+		}
 
 	}
 
