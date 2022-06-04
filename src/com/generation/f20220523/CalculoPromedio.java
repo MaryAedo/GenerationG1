@@ -9,6 +9,7 @@ public class CalculoPromedio {
 		
 		//promedio-> suma de todas las notas/cant notas;
 		
+		int sumaNotas = 0;
 		//como recorrer el array de notas
 		for (int i = 0; i < notas.length; i++) {//i=0
 			sumaNotas = sumaNotas + notas[i];
@@ -17,7 +18,7 @@ public class CalculoPromedio {
 		System.out.println("suma de notas: " + sumaNotas);
 		
 		//promedio;
-		float promedio = sumaNotas / notas.lenght;
+		float promedio = sumaNotas / notas.length;
 		/* TODO validar el orden >= */
 		//101
 		if(promedio >= 50 && promedio <= 100) {

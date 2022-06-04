@@ -151,9 +151,7 @@ public class Main {
 		int dos = 2;
 		int tres = 3;
 		
-		if( iva == (3 + dos) ) {
-			
-		}
+		//if( iva == (3 + dos) ) {}
 		
 	}
 }

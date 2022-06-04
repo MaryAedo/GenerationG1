@@ -18,9 +18,14 @@ public class Calculadora {
 		}
 		return "No se puede dividir por cero";
 	}
-	public String numerosPares(int i) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
+	
+	public String numerosPares(int numero){
+        if(numero % 2 == 0){
+            String resultado = "Tu numero es par";
+            return resultado;
+        }        
+        return "Tu numero es Impar";
 
+}
 }

@@ -24,6 +24,5 @@ public class Main {
 		 public static boolean isOdd (int numero) {
 		 return numero % 2 == 0;
 		    }
-		    }
 
 }

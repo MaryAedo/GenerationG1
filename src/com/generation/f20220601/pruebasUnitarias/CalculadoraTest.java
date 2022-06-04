@@ -40,13 +40,6 @@ public class CalculadoraTest {
 		assertNotEquals("0", resultado);
 	}
 	
-	public String numerosPares(int numero){
-        if(numero % 2 == 0){
-            String resultado = "Tu numero es par";
-            return resultado;
-        }        
-        return "tu numero es Impar";
-    }
 
 	@Test
 	public void testNumeroPar() {
@@ -57,6 +50,5 @@ public class CalculadoraTest {
 		
 		
 	}
-
-
+	
 }
