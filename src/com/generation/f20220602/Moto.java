@@ -46,12 +46,14 @@ public class Moto extends VehiculoTerrestre{
 				+ " super.toString() ]";
 	}
     
-	public void hacerSonido() {
+	public String acelerar() {
 		System.out.println("Fiiiiuuummmmmm");
+		return "Fiiiiuuummmmmm";
 	}
 	
-	public void baseApoyo() {
+	public Boolean baseApoyo() {
         System.out.println("Compa, disfrute su patita");
+		return true;
     }
 
 

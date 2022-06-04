@@ -86,8 +86,9 @@ public class VehiculoTerrestre {
 
 	//funcion
 
-	public void acelerar() {
+	public String acelerar() {
 		System.out.println("ChacaChacaChaca");
+		return "ChacaChacaChaca";
 	}
 
 
